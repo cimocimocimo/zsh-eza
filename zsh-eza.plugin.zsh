@@ -23,7 +23,7 @@ autoload -Uz .zsh-eza
 (( ${+functions[.zsh-eza]} )) && {
   .zsh-eza; (( $? )) && {
     print "Error loading zsh-eza plugin, exit code: $?"
-    exit 1
+    # exit 1
   }
 }
 

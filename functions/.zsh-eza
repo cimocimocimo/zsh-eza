@@ -2,7 +2,7 @@
 # vim: ft=zsh sw=2 ts=2 et
 #
 # Copyright (c) 2022 Salvydas Lukosius
-print "testing testing"
+print "testing testing" >&2
 if [[ $TERM == 'dumb' ]]; then
   return 1
 fi
